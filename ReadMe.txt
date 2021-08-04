@@ -9,8 +9,10 @@ Build:
 		#./buildall.sh
 
 Run:
-	1. Copy baresip_build/* to target file system
-	2. launch dbus daemon
+	1. Copy baresip_install.tar.gz and target_baresip_install.sh to target file system
+	2. Run install script
+		#./target_baresip_install.sh
+	3. Launch dbus daemon
 		#export $(dbus-launch)
-	3. execute baresip
+	4. Execute baresip
 		#baresip

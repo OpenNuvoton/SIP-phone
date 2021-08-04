@@ -1,6 +1,6 @@
 # libspeexdsp pkg-config source file
 
-prefix=/home/chchen59/ma35d1_sip_phone/speexdsp-1.2rc3/../baresip_build/usr
+prefix=/home/chchen59/SIP-phone/speexdsp-1.2rc3/../baresip_build/usr
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
