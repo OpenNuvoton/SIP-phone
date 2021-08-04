@@ -1,0 +1,84 @@
+#
+# SIP accounts - one account per line -- sample configuration
+#
+# Displayname <sip:user:password@domain;uri-params>;addr-params
+#
+#  uri-params:
+#    ;transport={udp,tcp,tls}
+#
+#  addr-params:
+#    ;answermode={manual,early,auto,early-audio,early-video}
+#    ;answerdelay=0
+#    ;audio_codecs=opus/48000/2,pcma,...
+#    ;audio_source=alsa,default
+#    ;audio_player=alsa,default
+#    ;sip_autoanswer={yes, no}
+#    ;dtmfmode={rtpevent, info}
+#    ;auth_user=username
+#    ;auth_pass=password
+#    ;call_transfer=no
+#    ;cert=cert.pem
+#    ;mediaaf={ipv4,ipv6,auto}
+#    ;mediaenc={srtp,srtp-mand,srtp-mandf,dtls_srtp,zrtp}
+#    ;medianat={stun,turn,ice}
+#    ;mwi=no
+#    ;outbound="sip:primary.example.com;transport=tcp"
+#    ;outbound2=sip:secondary.example.com
+#    ;ptime={10,20,30,40,...}
+#    ;regint=3600
+#    ;fbregint=120
+#    ;prio={0,1,2,3,...}
+#    ;rwait=90
+#    ;pubint=0 (publishing off)
+#    ;regq=0.5
+#    ;sipnat={outbound}
+#    ;stunuser=STUN/TURN/ICE-username
+#    ;stunpass=STUN/TURN/ICE-password
+#    ;stunserver=stun:[user:pass]@host[:port]
+#    ;video_codecs=h264,h263,...
+#
+# Examples:
+#
+#  <sip:user@domain.com>;auth_pass=secret
+#  <sip:user@domain.com;transport=tcp>;auth_pass=secret
+#  <sip:user@1.2.3.4;transport=tcp>;auth_pass=secret
+#  <sip:user@[2001:df8:0:16:216:6fff:fe91:614c]:5070;transport=tcp>;auth_pass=secret
+#
+#
+# A very basic example
+#
+<sip:user@iptel.org>;auth_pass=PASSWORD
+
+# A registrar-less account
+<sip:alice@office>;regint=0
+
+#
+# Use SIP Outbound over TCP, with ICE for Media NAT Traversal, and DTLS-SRTP for encryption
+#
+<sip:user@example.com>;sipnat=outbound;outbound="sip:example.com;transport=tcp";medianat=ice;mediaenc=dtls_srtp;auth_pass=pass
+
+
+#
+# Use ICE for Media NAT Traversal, using a specific STUN-server
+#
+<sip:user@example.com>;medianat=ice;stunserver="stun:username:password@stunserver.org";auth_pass=pass
+
+
+#
+# Force audio-codec 'opus' and video-codec 'vp8'
+#
+<sip:user@example.com>;audio_codecs=opus/48000/2;video_codecs=vp8;auth_pass=pass
+
+#
+# Prefer IPv6 for media
+#
+<sip:user@example.com>;mediaaf=ipv6
+
+#
+# Use same address family as SIP registration. This is the default for
+# registered accounts
+#
+<sip:user@example.com>;mediaaf=auto
+
+
+# ... more examples can be added here ...

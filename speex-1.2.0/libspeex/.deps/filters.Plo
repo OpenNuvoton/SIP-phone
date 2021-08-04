@@ -1,0 +1,124 @@
+filters.lo: filters.c \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h \
+ ../config.h filters.h arch.h ../include/speex/speex_types.h \
+ ../include/speex/speex_config_types.h \
+ /usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.3.0/include/stdint.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdint.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/libc-header-start.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/features.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/sys/cdefs.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wordsize.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wordsize-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/long-double.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/long-double-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/gnu/stubs.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-lp64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/timesize.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/typesizes.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/typesizes-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/time64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wchar.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdint-intn.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdint-uintn.h \
+ stack_alloc.h math_approx.h ltp.h ../include/speex/speex_bits.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/math.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/math-vector.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/floatn.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/floatn-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/floatn-common.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/flt-eval-method.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/fp-logb.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/fp-fast.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/fp-fast-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/mathcalls-helper-functions.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/mathcalls.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/mathinline.h
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h:
+
+../config.h:
+
+filters.h:
+
+arch.h:
+
+../include/speex/speex_types.h:
+
+../include/speex/speex_config_types.h:
+
+/usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.3.0/include/stdint.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdint.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/libc-header-start.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/features.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/sys/cdefs.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wordsize.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wordsize-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/long-double.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/long-double-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/gnu/stubs.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-lp64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/timesize.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/typesizes.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/typesizes-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/time64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wchar.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdint-intn.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdint-uintn.h:
+
+stack_alloc.h:
+
+math_approx.h:
+
+ltp.h:
+
+../include/speex/speex_bits.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/math.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/math-vector.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/libm-simd-decl-stubs.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/floatn.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/floatn-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/floatn-common.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/flt-eval-method.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/fp-logb.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/fp-fast.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/fp-fast-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/mathcalls-helper-functions.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/mathcalls.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/mathinline.h:

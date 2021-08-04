@@ -1,0 +1,4 @@
+gain_table_lbr.lo: gain_table_lbr.c \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h:

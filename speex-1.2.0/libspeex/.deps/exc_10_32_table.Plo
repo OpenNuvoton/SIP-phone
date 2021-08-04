@@ -1,0 +1,4 @@
+exc_10_32_table.lo: exc_10_32_table.c \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h:

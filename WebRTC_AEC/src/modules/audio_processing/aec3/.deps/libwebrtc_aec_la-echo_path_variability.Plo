@@ -1,0 +1,8 @@
+modules/audio_processing/aec3/libwebrtc_aec_la-echo_path_variability.lo: \
+ modules/audio_processing/aec3/echo_path_variability.cc \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h \
+ modules/audio_processing/aec3/echo_path_variability.h
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h:
+
+modules/audio_processing/aec3/echo_path_variability.h:

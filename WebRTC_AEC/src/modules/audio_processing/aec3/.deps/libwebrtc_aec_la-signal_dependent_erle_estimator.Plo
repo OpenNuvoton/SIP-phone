@@ -1,0 +1,813 @@
+modules/audio_processing/aec3/libwebrtc_aec_la-signal_dependent_erle_estimator.lo: \
+ modules/audio_processing/aec3/signal_dependent_erle_estimator.cc \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h \
+ modules/audio_processing/aec3/signal_dependent_erle_estimator.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/memory \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_algobase.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/c++config.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/os_defines.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/features.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/sys/cdefs.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wordsize.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wordsize-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/long-double.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/long-double-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/gnu/stubs.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-lp64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/cpu_defines.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/functexcept.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/exception_defines.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/cpp_type_traits.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ext/type_traits.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ext/numeric_traits.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_pair.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/move.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/concept_check.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/type_traits \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_iterator_base_types.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_iterator_base_funcs.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/debug/assertions.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_iterator.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/ptr_traits.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/debug/debug.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/predefined_ops.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/allocator.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/c++allocator.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ext/new_allocator.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/new \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/exception \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/exception.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/exception_ptr.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/cxxabi_init_exception.h \
+ /usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.3.0/include/stddef.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/typeinfo \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/hash_bytes.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/nested_exception.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/memoryfwd.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_construct.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ext/alloc_traits.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/alloc_traits.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_uninitialized.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_tempbuf.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_raw_storage_iter.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/iosfwd \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stringfwd.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/postypes.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cwchar \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/wchar.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/libc-header-start.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/floatn.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/floatn-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/floatn-common.h \
+ /usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.3.0/include/stdarg.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wchar.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/wint_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/mbstate_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__mbstate_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__FILE.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/FILE.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/locale_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__locale_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ext/atomicity.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/gthr.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/gthr-default.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/pthread.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/sched.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/timesize.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/typesizes.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/typesizes-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/time64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/time_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timespec.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/endian.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/endian-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/endianness.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/endianness-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/sched.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_sched_param.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/cpu-set.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/time.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/time.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/timex.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timeval.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/clock_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_tm.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/clockid_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/timer_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_itimerspec.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/thread-shared-types.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/struct_mutex.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/struct_rwlock.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/struct_rwlock-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/setjmp.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/setjmp-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/atomic_word.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ext/concurrence.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_function.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/backward/binders.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/uses_allocator.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/unique_ptr.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/utility \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_relops.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/initializer_list \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/tuple \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/array \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/stdexcept \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/string \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/char_traits.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cstdint \
+ /usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.3.0/include/stdint.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdint.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdint-intn.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdint-uintn.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/localefwd.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/c++locale.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/clocale \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/locale.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/locale.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cctype \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/ctype.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/ostream_insert.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/cxxabi_forced.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/range_access.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/basic_string.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ext/string_conversions.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cstdlib \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdlib.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/waitflags.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/waitstatus.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/sys/types.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/endian.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/byteswap.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/uintn-identity.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/sys/select.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/select.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/sigset_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__sigset_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/alloca.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-bsearch.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-float.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/std_abs.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cstdio \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdio.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__fpos_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__fpos64_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_FILE.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/cookie_io_functions_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdio_lim.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/sys_errlist.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdio.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cerrno \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/errno.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/errno.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/linux/errno.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/asm/errno.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/asm-generic/errno.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/asm-generic/errno-base.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/error_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/functional_hash.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/basic_string.tcc \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/invoke.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/shared_ptr.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/shared_ptr_base.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/allocated_ptr.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/refwrap.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ext/aligned_buffer.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/shared_ptr_atomic.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/atomic_base.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/atomic_lockfree_defines.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/backward/auto_ptr.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/vector \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_vector.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_bvector.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/vector.tcc \
+ api/array_view.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/algorithm \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_algo.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/algorithmfwd.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_heap.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/uniform_int_dist.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/limits \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/iterator \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ostream \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ios \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/ios_base.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/locale_classes.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/locale_classes.tcc \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/system_error \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/error_constants.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/streambuf \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/streambuf.tcc \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/basic_ios.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/locale_facets.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cwctype \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/wctype.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wctype-wchar.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/ctype_base.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/streambuf_iterator.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/ctype_inline.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/locale_facets.tcc \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/basic_ios.tcc \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/ostream.tcc \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/istream \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/istream.tcc \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stream_iterator.h \
+ rtc_base/checks.h third_party/abseil-cpp/absl/meta/type_traits.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/functional \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/std_function.h \
+ third_party/abseil-cpp/absl/base/config.h \
+ /usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.3.0/include-fixed/limits.h \
+ /usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.3.0/include-fixed/syslimits.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/limits.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/posix1_lim.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/local_lim.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/local_lim-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/linux/limits.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/posix2_lim.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/xopen_lim.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/uio_lim.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cstddef \
+ third_party/abseil-cpp/absl/base/options.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ciso646 \
+ third_party/abseil-cpp/absl/base/policy_checks.h \
+ third_party/abseil-cpp/absl/strings/string_view.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cassert \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/assert.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cstring \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/string.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/strings.h \
+ third_party/abseil-cpp/absl/base/attributes.h \
+ third_party/abseil-cpp/absl/base/internal/throw_delegate.h \
+ third_party/abseil-cpp/absl/base/macros.h \
+ third_party/abseil-cpp/absl/base/optimization.h \
+ third_party/abseil-cpp/absl/base/port.h rtc_base/numerics/safe_compare.h \
+ rtc_base/type_traits.h rtc_base/system/inline.h \
+ rtc_base/system/rtc_export.h api/audio/echo_canceller3_config.h \
+ modules/audio_processing/aec3/aec3_common.h \
+ modules/audio_processing/aec3/render_buffer.h \
+ modules/audio_processing/aec3/block_buffer.h \
+ modules/audio_processing/aec3/fft_buffer.h \
+ modules/audio_processing/aec3/fft_data.h rtc_base/system/arch.h \
+ modules/audio_processing/aec3/spectrum_buffer.h \
+ modules/audio_processing/logging/apm_data_dumper.h \
+ third_party/abseil-cpp/absl/types/optional.h \
+ third_party/abseil-cpp/absl/utility/utility.h \
+ third_party/abseil-cpp/absl/base/internal/inline_variable.h \
+ third_party/abseil-cpp/absl/base/internal/identity.h \
+ third_party/abseil-cpp/absl/base/internal/invoke.h \
+ third_party/abseil-cpp/absl/types/bad_optional_access.h \
+ third_party/abseil-cpp/absl/types/internal/optional.h \
+ third_party/abseil-cpp/absl/memory/memory.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/numeric \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_numeric.h \
+ rtc_base/numerics/safe_minmax.h
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h:
+
+modules/audio_processing/aec3/signal_dependent_erle_estimator.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/memory:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_algobase.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/c++config.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/os_defines.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/features.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/sys/cdefs.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wordsize.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wordsize-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/long-double.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/long-double-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/gnu/stubs.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-lp64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/cpu_defines.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/functexcept.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/exception_defines.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/cpp_type_traits.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ext/type_traits.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ext/numeric_traits.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_pair.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/move.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/concept_check.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/type_traits:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_iterator_base_types.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_iterator_base_funcs.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/debug/assertions.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_iterator.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/ptr_traits.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/debug/debug.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/predefined_ops.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/allocator.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/c++allocator.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ext/new_allocator.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/new:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/exception:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/exception.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/exception_ptr.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/cxxabi_init_exception.h:
+
+/usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.3.0/include/stddef.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/typeinfo:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/hash_bytes.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/nested_exception.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/memoryfwd.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_construct.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ext/alloc_traits.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/alloc_traits.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_uninitialized.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_tempbuf.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_raw_storage_iter.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/iosfwd:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stringfwd.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/postypes.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cwchar:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/wchar.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/libc-header-start.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/floatn.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/floatn-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/floatn-common.h:
+
+/usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.3.0/include/stdarg.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wchar.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/wint_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/mbstate_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__mbstate_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__FILE.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/FILE.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/locale_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__locale_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ext/atomicity.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/gthr.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/gthr-default.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/pthread.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/sched.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/timesize.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/typesizes.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/typesizes-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/time64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/time_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timespec.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/endian.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/endian-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/endianness.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/endianness-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/sched.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_sched_param.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/cpu-set.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/time.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/time.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/timex.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timeval.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/clock_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_tm.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/clockid_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/timer_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_itimerspec.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/thread-shared-types.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/struct_mutex.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/struct_rwlock.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/struct_rwlock-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/setjmp.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/setjmp-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/atomic_word.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ext/concurrence.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_function.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/backward/binders.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/uses_allocator.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/unique_ptr.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/utility:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_relops.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/initializer_list:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/tuple:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/array:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/stdexcept:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/string:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/char_traits.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cstdint:
+
+/usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.3.0/include/stdint.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdint.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdint-intn.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdint-uintn.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/localefwd.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/c++locale.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/clocale:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/locale.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/locale.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cctype:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/ctype.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/ostream_insert.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/cxxabi_forced.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/range_access.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/basic_string.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ext/string_conversions.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cstdlib:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdlib.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/waitflags.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/waitstatus.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/sys/types.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/endian.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/byteswap.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/uintn-identity.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/sys/select.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/select.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/sigset_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__sigset_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/alloca.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-bsearch.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-float.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/std_abs.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cstdio:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdio.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__fpos_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__fpos64_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_FILE.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/cookie_io_functions_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdio_lim.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/sys_errlist.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdio.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cerrno:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/errno.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/errno.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/linux/errno.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/asm/errno.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/asm-generic/errno.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/asm-generic/errno-base.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/error_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/functional_hash.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/basic_string.tcc:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/invoke.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/shared_ptr.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/shared_ptr_base.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/allocated_ptr.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/refwrap.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ext/aligned_buffer.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/shared_ptr_atomic.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/atomic_base.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/atomic_lockfree_defines.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/backward/auto_ptr.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/vector:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_vector.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_bvector.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/vector.tcc:
+
+api/array_view.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/algorithm:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_algo.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/algorithmfwd.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_heap.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/uniform_int_dist.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/limits:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/iterator:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ostream:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ios:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/ios_base.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/locale_classes.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/locale_classes.tcc:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/system_error:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/error_constants.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/streambuf:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/streambuf.tcc:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/basic_ios.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/locale_facets.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cwctype:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/wctype.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wctype-wchar.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/ctype_base.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/streambuf_iterator.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/aarch64-poky-linux/bits/ctype_inline.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/locale_facets.tcc:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/basic_ios.tcc:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/ostream.tcc:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/istream:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/istream.tcc:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stream_iterator.h:
+
+rtc_base/checks.h:
+
+third_party/abseil-cpp/absl/meta/type_traits.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/functional:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/std_function.h:
+
+third_party/abseil-cpp/absl/base/config.h:
+
+/usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.3.0/include-fixed/limits.h:
+
+/usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.3.0/include-fixed/syslimits.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/limits.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/posix1_lim.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/local_lim.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/local_lim-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/linux/limits.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/posix2_lim.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/xopen_lim.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/uio_lim.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cstddef:
+
+third_party/abseil-cpp/absl/base/options.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/ciso646:
+
+third_party/abseil-cpp/absl/base/policy_checks.h:
+
+third_party/abseil-cpp/absl/strings/string_view.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cassert:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/assert.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/cstring:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/string.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/strings.h:
+
+third_party/abseil-cpp/absl/base/attributes.h:
+
+third_party/abseil-cpp/absl/base/internal/throw_delegate.h:
+
+third_party/abseil-cpp/absl/base/macros.h:
+
+third_party/abseil-cpp/absl/base/optimization.h:
+
+third_party/abseil-cpp/absl/base/port.h:
+
+rtc_base/numerics/safe_compare.h:
+
+rtc_base/type_traits.h:
+
+rtc_base/system/inline.h:
+
+rtc_base/system/rtc_export.h:
+
+api/audio/echo_canceller3_config.h:
+
+modules/audio_processing/aec3/aec3_common.h:
+
+modules/audio_processing/aec3/render_buffer.h:
+
+modules/audio_processing/aec3/block_buffer.h:
+
+modules/audio_processing/aec3/fft_buffer.h:
+
+modules/audio_processing/aec3/fft_data.h:
+
+rtc_base/system/arch.h:
+
+modules/audio_processing/aec3/spectrum_buffer.h:
+
+modules/audio_processing/logging/apm_data_dumper.h:
+
+third_party/abseil-cpp/absl/types/optional.h:
+
+third_party/abseil-cpp/absl/utility/utility.h:
+
+third_party/abseil-cpp/absl/base/internal/inline_variable.h:
+
+third_party/abseil-cpp/absl/base/internal/identity.h:
+
+third_party/abseil-cpp/absl/base/internal/invoke.h:
+
+third_party/abseil-cpp/absl/types/bad_optional_access.h:
+
+third_party/abseil-cpp/absl/types/internal/optional.h:
+
+third_party/abseil-cpp/absl/memory/memory.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/numeric:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/c++/9.3.0/bits/stl_numeric.h:
+
+rtc_base/numerics/safe_minmax.h:

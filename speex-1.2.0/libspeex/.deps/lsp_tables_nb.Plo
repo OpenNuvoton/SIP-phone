@@ -1,0 +1,4 @@
+lsp_tables_nb.lo: lsp_tables_nb.c \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h:

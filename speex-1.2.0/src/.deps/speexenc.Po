@@ -1,0 +1,301 @@
+speexenc.o: speexenc.c \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h \
+ ../config.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdio.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/libc-header-start.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/features.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/sys/cdefs.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wordsize.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wordsize-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/long-double.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/long-double-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/gnu/stubs.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-lp64.h \
+ /usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.3.0/include/stddef.h \
+ /usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.3.0/include/stdarg.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/timesize.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/typesizes.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/typesizes-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/time64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__fpos_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__mbstate_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__fpos64_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__FILE.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/FILE.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_FILE.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdio_lim.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/sys_errlist.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdio.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/unistd.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/posix_opt.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/environments.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/confname.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/getopt_posix.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/getopt_core.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/unistd_ext.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/getopt.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/getopt_ext.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdlib.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/waitflags.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/waitstatus.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/floatn.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/floatn-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/floatn-common.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/sys/types.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/clock_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/clockid_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/time_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/timer_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdint-intn.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/endian.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/endian.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/endian-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/endianness.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/endianness-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/byteswap.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/uintn-identity.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/sys/select.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/select.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/sigset_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__sigset_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timeval.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timespec.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/thread-shared-types.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/struct_mutex.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/struct_rwlock.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/struct_rwlock-64.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/alloca.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-bsearch.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-float.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/string.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/locale_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__locale_t.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/strings.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/time.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/time.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_tm.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_itimerspec.h \
+ ../include/speex/speex.h ../include/speex/speex_types.h \
+ ../include/speex/speex_config_types.h \
+ /usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.3.0/include/stdint.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdint.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wchar.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdint-uintn.h \
+ ../include/speex/speex_bits.h ../include/speex/speex_header.h \
+ ../include/speex/speex_stereo.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/ogg/ogg.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/ogg/os_types.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/ogg/config_types.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/inttypes.h \
+ wav_io.h ../include/speex/speex_types.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/speex/speex_preprocess.h \
+ /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/speex/speexdsp_types.h \
+ skeleton.h
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdc-predef.h:
+
+../config.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdio.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/libc-header-start.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/features.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/sys/cdefs.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wordsize.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wordsize-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/long-double.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/long-double-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/gnu/stubs.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/gnu/stubs-lp64.h:
+
+/usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.3.0/include/stddef.h:
+
+/usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.3.0/include/stdarg.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/timesize.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/typesizes.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/typesizes-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/time64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__fpos_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__mbstate_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__fpos64_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__FILE.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/FILE.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_FILE.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdio_lim.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/sys_errlist.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdio.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/unistd.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/posix_opt.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/environments.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/confname.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/getopt_posix.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/getopt_core.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/unistd_ext.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/getopt.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/getopt_ext.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdlib.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/waitflags.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/waitstatus.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/floatn.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/floatn-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/floatn-common.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/sys/types.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/clock_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/clockid_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/time_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/timer_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdint-intn.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/endian.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/endian.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/endian-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/endianness.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/endianness-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/byteswap.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/uintn-identity.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/sys/select.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/select.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/sigset_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__sigset_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timeval.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_timespec.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/thread-shared-types.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/pthreadtypes-arch-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/struct_mutex.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/struct_rwlock.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/struct_rwlock-64.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/alloca.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-bsearch.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdlib-float.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/string.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/locale_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/__locale_t.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/strings.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/time.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/time.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_tm.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/types/struct_itimerspec.h:
+
+../include/speex/speex.h:
+
+../include/speex/speex_types.h:
+
+../include/speex/speex_config_types.h:
+
+/usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/9.3.0/include/stdint.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/stdint.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/wchar.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/bits/stdint-uintn.h:
+
+../include/speex/speex_bits.h:
+
+../include/speex/speex_header.h:
+
+../include/speex/speex_stereo.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/ogg/ogg.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/ogg/os_types.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/ogg/config_types.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/inttypes.h:
+
+wav_io.h:
+
+../include/speex/speex_types.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/speex/speex_preprocess.h:
+
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/include/speex/speexdsp_types.h:
+
+skeleton.h:

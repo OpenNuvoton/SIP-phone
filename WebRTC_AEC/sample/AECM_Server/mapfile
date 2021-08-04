@@ -1,0 +1,1153 @@
+Archive member included to satisfy reference by file (symbol)
+
+../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-echo_control_mobile.o)
+                              AECMServer.o (WebRtcAecm_Create)
+../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-ring_buffer.o)
+                              ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-echo_control_mobile.o) (WebRtc_CreateBuffer)
+../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+                              ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-echo_control_mobile.o) (webrtc::WebRtcAecm_CreateCore())
+../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+                              ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o) (webrtc::WebRtcAecm_ProcessBlock(webrtc::AecmCore*, short const*, short const*, short const*, short*))
+../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+                              ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o) (webrtc::WebRtc_FreeDelayEstimatorFarend(void*))
+../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+                              ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o) (webrtc::WebRtc_FreeBinaryDelayEstimatorFarend(webrtc::BinaryDelayEstimatorFarend*))
+../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-real_fft.o)
+                              ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o) (WebRtcSpl_CreateRealFFT)
+../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-division_operations.o)
+                              ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o) (WebRtcSpl_DivU32U16)
+../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_init.o)
+                              ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o) (WebRtcSpl_MaxAbsValueW16)
+../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-min_max_operations.o)
+                              ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_init.o) (WebRtcSpl_MaxAbsValueW16C)
+../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-randomization_functions.o)
+                              ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o) (WebRtcSpl_RandUArray)
+../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_bit_reverse.o)
+                              ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-real_fft.o) (WebRtcSpl_ComplexBitReverse)
+../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_fft.o)
+                              ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-real_fft.o) (WebRtcSpl_ComplexFFT)
+../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-vector_scaling_operations.o)
+                              ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_init.o) (WebRtcSpl_ScaleAndAddVectorsWithRoundC)
+../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-downsample_fast.o)
+                              ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_init.o) (WebRtcSpl_DownsampleFastC)
+../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-cross_correlation.o)
+                              ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_init.o) (WebRtcSpl_CrossCorrelationC)
+../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_sqrt_floor.o)
+                              ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o) (WebRtcSpl_SqrtFloor)
+../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+                              ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o) (rtc::webrtc_checks_impl::FatalLog(char const*, int, char const*, rtc::webrtc_checks_impl::CheckArgType const*, ...))
+/usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libc_nonshared.a(elf-init.oS)
+                              /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o (__libc_csu_init)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libpthread.so.0               AECMServer.o (write@@GLIBC_2.17)
+libstdc++.so.6                ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o) (std::__throw_length_error(char const*)@@GLIBCXX_3.4)
+libasound.so.2                ALSA.o (snd_pcm_hw_params_get_rate@@ALSA_0.9.0rc4)
+libgcc_s.so.1                 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o) (_Unwind_Resume@@GCC_3.0)
+libc.so.6                     AECMServer.o (socket@@GLIBC_2.17)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtbegin.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 AECMServer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ALSA.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-echo_control_mobile.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-ring_buffer.o)
+ .group         0x0000000000000000        0x8 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+ .group         0x0000000000000000        0x8 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+ .group         0x0000000000000000        0x8 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+ .group         0x0000000000000000        0x8 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+ .rodata._ZZN3rtc18webrtc_checks_impl11LogStreamerIJEE11CallCheckOpIJNS0_3ValILNS0_12CheckArgTypeE1EiEES6_EEEvPKciS8_DpRKT_E1t
+                0x0000000000000000        0x4 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+ .rodata._ZZN3rtc18webrtc_checks_impl11LogStreamerIJEE4CallIJEEEvPKciS5_DpRKT_E1t
+                0x0000000000000000        0x1 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+ .group         0x0000000000000000        0x8 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+ .group         0x0000000000000000        0x8 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+ .rodata._ZZN3rtc18webrtc_checks_impl11LogStreamerIJEE11CallCheckOpIJNS0_3ValILNS0_12CheckArgTypeE1EiEES6_EEEvPKciS8_DpRKT_E1t
+                0x0000000000000000        0x4 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+ .rodata._ZZN3rtc18webrtc_checks_impl11LogStreamerIJEE4CallIJEEEvPKciS5_DpRKT_E1t
+                0x0000000000000000        0x1 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-real_fft.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-division_operations.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-min_max_operations.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-randomization_functions.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_bit_reverse.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_fft.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-vector_scaling_operations.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-downsample_fast.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-cross_correlation.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_sqrt_floor.o)
+ .group         0x0000000000000000        0xc ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+LOAD /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crti.o
+LOAD /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtbegin.o
+LOAD AECMServer.o
+LOAD ALSA.o
+LOAD ../../src/.libs/libwebrtc_aec.a
+LOAD /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libpthread.so
+LOAD /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libstdc++.so
+LOAD /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libasound.so
+LOAD /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libstdc++.so
+LOAD /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libm.so
+LOAD /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/lib/libgcc_s.so
+LOAD /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/libgcc.a
+LOAD /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libc.so
+START GROUP
+LOAD /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/lib/libc.so.6
+LOAD /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libc_nonshared.a
+LOAD /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/lib/ld-linux-aarch64.so.1
+END GROUP
+LOAD /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/lib/libgcc_s.so
+LOAD /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/libgcc.a
+LOAD /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtend.o
+LOAD /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x400000))
+                0x0000000000400238                . = (SEGMENT_START ("text-segment", 0x400000) + SIZEOF_HEADERS)
+
+.interp         0x0000000000400238       0x1b
+ *(.interp)
+ .interp        0x0000000000400238       0x1b /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+
+.note.gnu.build-id
+                0x0000000000400254       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000400254       0x24 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+
+.note.ABI-tag   0x0000000000400278       0x20
+ .note.ABI-tag  0x0000000000400278       0x20 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x0000000000400298       0x50
+ *(.gnu.hash)
+ .gnu.hash      0x0000000000400298       0x50 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+
+.dynsym         0x00000000004002e8      0x708
+ *(.dynsym)
+ .dynsym        0x00000000004002e8      0x708 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+
+.dynstr         0x00000000004009f0      0x506
+ *(.dynstr)
+ .dynstr        0x00000000004009f0      0x506 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+
+.gnu.version    0x0000000000400ef6       0x96
+ *(.gnu.version)
+ .gnu.version   0x0000000000400ef6       0x96 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+
+.gnu.version_d  0x0000000000400f90        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000400f90        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+
+.gnu.version_r  0x0000000000400f90       0xd0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000400f90       0xd0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+
+.rela.dyn       0x0000000000401060       0x78
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000401060        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+ .rela.text.startup
+                0x0000000000401060        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ .rela.rodata.cst8
+                0x0000000000401060        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.ro
+                0x0000000000401060        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+ .rela.data.DW.ref.__gxx_personality_v0
+                0x0000000000401060        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000401060       0x18 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x0000000000401078       0x60 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+ *(.rela.ifunc)
+ .rela.eh_frame
+                0x00000000004010d8        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+
+.rela.plt       0x00000000004010d8      0x660
+ *(.rela.plt)
+ .rela.plt      0x00000000004010d8      0x660 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+                [!provide]                        PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+ .rela.iplt     0x0000000000401738        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+                [!provide]                        PROVIDE (__rela_iplt_end = .)
+
+.init           0x0000000000401738       0x14
+ *(SORT_NONE(.init))
+ .init          0x0000000000401738        0xc /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crti.o
+                0x0000000000401738                _init
+ .init          0x0000000000401744        0x8 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+
+.plt            0x0000000000401750      0x460
+ *(.plt)
+ .plt           0x0000000000401750      0x460 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+                0x0000000000401770                socket@@GLIBC_2.17
+                0x0000000000401780                fputs@@GLIBC_2.17
+                0x0000000000401790                memcpy@@GLIBC_2.17
+                0x00000000004017a0                puts@@GLIBC_2.17
+                0x00000000004017b0                snd_pcm_start@@ALSA_0.9
+                0x00000000004017c0                pthread_join@@GLIBC_2.17
+                0x00000000004017d0                calloc@@GLIBC_2.17
+                0x00000000004017e0                snd_pcm_hw_params_set_access@@ALSA_0.9
+                0x00000000004017f0                pthread_mutex_lock@@GLIBC_2.17
+                0x0000000000401800                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::resize(unsigned long, char)@@GLIBCXX_3.4.21
+                0x0000000000401810                strlen@@GLIBC_2.17
+                0x0000000000401820                fprintf@@GLIBC_2.17
+                0x0000000000401830                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long)@@GLIBCXX_3.4.21
+                0x0000000000401840                perror@@GLIBC_2.17
+                0x0000000000401850                snd_pcm_readi@@ALSA_0.9
+                0x0000000000401860                snd_pcm_hw_params_get_buffer_size@@ALSA_0.9.0rc4
+                0x0000000000401870                snd_pcm_hw_params_free@@ALSA_0.9
+                0x0000000000401880                snd_pcm_hw_params_set_format@@ALSA_0.9
+                0x0000000000401890                strtol@@GLIBC_2.17
+                0x00000000004018a0                std::__throw_length_error(char const*)@@GLIBCXX_3.4
+                0x00000000004018b0                free@@GLIBC_2.17
+                0x00000000004018c0                memset@@GLIBC_2.17
+                0x00000000004018d0                pthread_mutex_unlock@@GLIBC_2.17
+                0x00000000004018e0                realloc@@GLIBC_2.17
+                0x00000000004018f0                setsockopt@@GLIBC_2.17
+                0x0000000000401900                read@@GLIBC_2.17
+                0x0000000000401910                snd_pcm_open@@ALSA_0.9
+                0x0000000000401920                gettimeofday@@GLIBC_2.17
+                0x0000000000401930                snd_strerror@@ALSA_0.9
+                0x0000000000401940                snd_pcm_writei@@ALSA_0.9
+                0x0000000000401950                snd_pcm_hw_params@@ALSA_0.9
+                0x0000000000401960                __libc_start_main@@GLIBC_2.17
+                0x0000000000401970                snd_pcm_prepare@@ALSA_0.9
+                0x0000000000401980                clock_gettime@@GLIBC_2.17
+                0x0000000000401990                getpid@@GLIBC_2.17
+                0x00000000004019a0                operator delete(void*)@@GLIBCXX_3.4
+                0x00000000004019b0                getopt@@GLIBC_2.17
+                0x00000000004019c0                getc@@GLIBC_2.17
+                0x00000000004019d0                snd_pcm_hw_params_set_rate_near@@ALSA_0.9.0rc4
+                0x00000000004019e0                fflush@@GLIBC_2.17
+                0x00000000004019f0                snd_pcm_hw_params_get_channels@@ALSA_0.9.0rc4
+                0x0000000000401a00                pthread_create@@GLIBC_2.17
+                0x0000000000401a10                snd_pcm_hw_params_malloc@@ALSA_0.9
+                0x0000000000401a20                usleep@@GLIBC_2.17
+                0x0000000000401a30                memmove@@GLIBC_2.17
+                0x0000000000401a40                snd_pcm_close@@ALSA_0.9
+                0x0000000000401a50                snd_pcm_state@@ALSA_0.9
+                0x0000000000401a60                __errno_location@@GLIBC_2.17
+                0x0000000000401a70                snd_pcm_hw_params_set_channels@@ALSA_0.9
+                0x0000000000401a80                vsnprintf@@GLIBC_2.17
+                0x0000000000401a90                close@@GLIBC_2.17
+                0x0000000000401aa0                accept@@GLIBC_2.17
+                0x0000000000401ab0                write@@GLIBC_2.17
+                0x0000000000401ac0                malloc@@GLIBC_2.17
+                0x0000000000401ad0                abort@@GLIBC_2.17
+                0x0000000000401ae0                __gxx_personality_v0@@CXXABI_1.3
+                0x0000000000401af0                snd_pcm_hw_params_current@@ALSA_0.9
+                0x0000000000401b00                exit@@GLIBC_2.17
+                0x0000000000401b10                _Unwind_Resume@@GCC_3.0
+                0x0000000000401b20                snd_pcm_hw_params_get_rate@@ALSA_0.9.0rc4
+                0x0000000000401b30                snd_pcm_avail@@ALSA_0.9
+                0x0000000000401b40                bind@@GLIBC_2.17
+                0x0000000000401b50                snd_pcm_hw_params_any@@ALSA_0.9
+                0x0000000000401b60                listen@@GLIBC_2.17
+                0x0000000000401b80                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::append(char const*)@@GLIBCXX_3.4.21
+                0x0000000000401b90                printf@@GLIBC_2.17
+                0x0000000000401ba0                inet_ntoa@@GLIBC_2.17
+ *(.iplt)
+ .iplt          0x0000000000401bb0        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+
+.text           0x0000000000401bb0     0xa624
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x0000000000401bb0      0x868 AECMServer.o
+                0x0000000000401bb0                main
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000402418       0x50 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+                0x0000000000402418                _start
+ .text          0x0000000000402468       0x14 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crti.o
+ *fill*         0x000000000040247c        0x4 1f2003d5
+ .text          0x0000000000402480       0xa4 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtbegin.o
+ *fill*         0x0000000000402524        0xc 1f2003d5
+ .text          0x0000000000402530      0x41c AECMServer.o
+ *fill*         0x000000000040294c        0x4 1f2003d5
+ .text          0x0000000000402950     0x1e78 ALSA.o
+                0x0000000000402950                Util_GetTime
+                0x00000000004029a0                ALSA_PlayOpen
+                0x0000000000403300                ALSA_PlayClose
+                0x0000000000403400                ALSA_PlayWrite
+                0x0000000000403690                ALSA_RecOpen
+                0x0000000000404070                ALSA_RecClose
+                0x0000000000404190                ALSA_RecRead
+ *fill*         0x00000000004047c8        0x8 1f2003d5
+ .text          0x00000000004047d0      0x9c8 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-echo_control_mobile.o)
+                0x0000000000404800                WebRtcAecm_Create
+                0x0000000000404870                WebRtcAecm_Free
+                0x0000000000404880                WebRtcAecm_GetBufferFarendError
+                0x00000000004048c0                WebRtcAecm_BufferFarend
+                0x00000000004049d0                WebRtcAecm_Process
+                0x0000000000404ed0                WebRtcAecm_set_config
+                0x0000000000405010                WebRtcAecm_Init
+                0x00000000004050d0                WebRtcAecm_InitEchoPath
+                0x0000000000405130                WebRtcAecm_GetEchoPath
+                0x0000000000405190                WebRtcAecm_echo_path_size_bytes
+ *fill*         0x0000000000405198        0x8 1f2003d5
+ .text          0x00000000004051a0      0x3d0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-ring_buffer.o)
+                0x00000000004051a0                WebRtc_CreateBuffer
+                0x0000000000405240                WebRtc_InitBuffer
+                0x0000000000405260                WebRtc_FreeBuffer
+                0x0000000000405290                WebRtc_available_read
+                0x00000000004052c0                WebRtc_available_write
+                0x0000000000405300                WebRtc_WriteBuffer
+                0x00000000004053d0                WebRtc_MoveReadPtr
+                0x0000000000405470                WebRtc_ReadBuffer
+ .text          0x0000000000405570     0x1670 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+                0x0000000000405770                webrtc::WebRtcAecm_UpdateFarHistory(webrtc::AecmCore*, unsigned short*, int)
+                0x00000000004057d0                webrtc::WebRtcAecm_AlignedFarend(webrtc::AecmCore*, int*, int)
+                0x0000000000405830                webrtc::WebRtcAecm_CreateCore()
+                0x0000000000405980                webrtc::WebRtcAecm_InitEchoPathCore(webrtc::AecmCore*, short const*)
+                0x0000000000405a20                webrtc::WebRtcAecm_InitCore(webrtc::AecmCore*, int)
+                0x0000000000405d50                webrtc::WebRtcAecm_Control(webrtc::AecmCore*, int, int)
+                0x0000000000405d70                webrtc::WebRtcAecm_FreeCore(webrtc::AecmCore*)
+                0x0000000000405d80                webrtc::WebRtcAecm_AsymFilt(short, short, short, short)
+                0x0000000000405de0                webrtc::WebRtcAecm_CalcEnergies(webrtc::AecmCore*, unsigned short const*, short, unsigned int, int*)
+                0x0000000000406150                webrtc::WebRtcAecm_CalcStepSize(webrtc::AecmCore*)
+                0x00000000004061e0                webrtc::WebRtcAecm_UpdateChannel(webrtc::AecmCore*, unsigned short const*, short, unsigned short const*, short, int*)
+                0x0000000000406780                webrtc::WebRtcAecm_CalcSuppressionGain(webrtc::AecmCore*)
+                0x0000000000406860                webrtc::WebRtcAecm_BufferFarFrame(webrtc::AecmCore*, short const*, int)
+                0x0000000000406920                webrtc::WebRtcAecm_FetchFarFrame(webrtc::AecmCore*, short*, int, int)
+                0x0000000000406a40                webrtc::WebRtcAecm_ProcessFrame(webrtc::AecmCore*, short const*, short const*, short const*, short*)
+ .text          0x0000000000406be0     0x152c ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+                0x0000000000406f50                webrtc::WebRtcAecm_ProcessBlock(webrtc::AecmCore*, short const*, short const*, short const*, short*)
+ *fill*         0x000000000040810c        0x4 1f2003d5
+ .text          0x0000000000408110      0x874 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+                0x00000000004082a0                webrtc::WebRtc_FreeDelayEstimatorFarend(void*)
+                0x00000000004082e0                webrtc::WebRtc_CreateDelayEstimatorFarend(int, int)
+                0x0000000000408390                webrtc::WebRtc_InitDelayEstimatorFarend(void*)
+                0x00000000004083e0                webrtc::WebRtc_SoftResetDelayEstimatorFarend(void*, int)
+                0x0000000000408420                webrtc::WebRtc_AddFarSpectrumFix(void*, unsigned short const*, int, int)
+                0x0000000000408490                webrtc::WebRtc_AddFarSpectrumFloat(void*, float const*, int)
+                0x00000000004084f0                webrtc::WebRtc_FreeDelayEstimator(void*)
+                0x0000000000408530                webrtc::WebRtc_CreateDelayEstimator(void*, int)
+                0x00000000004085f0                webrtc::WebRtc_InitDelayEstimator(void*)
+                0x0000000000408640                webrtc::WebRtc_SoftResetDelayEstimator(void*, int)
+                0x0000000000408680                webrtc::WebRtc_set_history_size(void*, int)
+                0x00000000004086a0                webrtc::WebRtc_history_size(void const*)
+                0x00000000004086d0                webrtc::WebRtc_set_lookahead(void*, int)
+                0x0000000000408750                webrtc::WebRtc_lookahead(void*)
+                0x00000000004087b0                webrtc::WebRtc_set_allowed_offset(void*, int)
+                0x00000000004087e0                webrtc::WebRtc_get_allowed_offset(void const*)
+                0x0000000000408800                webrtc::WebRtc_enable_robust_validation(void*, int)
+                0x0000000000408850                webrtc::WebRtc_is_robust_validation_enabled(void const*)
+                0x0000000000408870                webrtc::WebRtc_DelayEstimatorProcessFix(void*, unsigned short const*, int, int)
+                0x00000000004088e0                webrtc::WebRtc_DelayEstimatorProcessFloat(void*, float const*, int)
+                0x0000000000408930                webrtc::WebRtc_last_delay(void*)
+                0x0000000000408950                webrtc::WebRtc_last_delay_quality(void*)
+ *fill*         0x0000000000408984        0xc 1f2003d5
+ .text          0x0000000000408990      0xf74 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+                0x00000000004089d0                webrtc::WebRtc_FreeBinaryDelayEstimatorFarend(webrtc::BinaryDelayEstimatorFarend*)
+                0x0000000000408a10                webrtc::WebRtc_AllocateFarendBufferMemory(webrtc::BinaryDelayEstimatorFarend*, int)
+                0x0000000000408af0                webrtc::WebRtc_CreateBinaryDelayEstimatorFarend(int)
+                0x0000000000408b80                webrtc::WebRtc_InitBinaryDelayEstimatorFarend(webrtc::BinaryDelayEstimatorFarend*)
+                0x0000000000408bf0                webrtc::WebRtc_SoftResetBinaryDelayEstimatorFarend(webrtc::BinaryDelayEstimatorFarend*, int)
+                0x0000000000408d00                webrtc::WebRtc_AddBinaryFarSpectrum(webrtc::BinaryDelayEstimatorFarend*, unsigned int)
+                0x0000000000408dd0                webrtc::WebRtc_FreeBinaryDelayEstimator(webrtc::BinaryDelayEstimator*)
+                0x0000000000408de0                webrtc::WebRtc_AllocateHistoryBufferMemory(webrtc::BinaryDelayEstimator*, int)
+                0x0000000000408ef0                webrtc::WebRtc_CreateBinaryDelayEstimator(webrtc::BinaryDelayEstimatorFarend*, int)
+                0x0000000000408fb0                webrtc::WebRtc_InitBinaryDelayEstimator(webrtc::BinaryDelayEstimator*)
+                0x0000000000409070                webrtc::WebRtc_SoftResetBinaryDelayEstimator(webrtc::BinaryDelayEstimator*, int)
+                0x00000000004090e0                webrtc::WebRtc_ProcessBinarySpectrum(webrtc::BinaryDelayEstimator*, unsigned int)
+                0x0000000000409820                webrtc::WebRtc_binary_last_delay(webrtc::BinaryDelayEstimator*)
+                0x0000000000409860                webrtc::WebRtc_binary_last_delay_quality(webrtc::BinaryDelayEstimator*)
+                0x00000000004098e0                webrtc::WebRtc_MeanEstimatorFix(int, int, int*)
+ *fill*         0x0000000000409904        0xc 1f2003d5
+ .text          0x0000000000409910      0x2c8 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-real_fft.o)
+                0x0000000000409910                WebRtcSpl_CreateRealFFT
+                0x0000000000409950                WebRtcSpl_FreeRealFFT
+                0x0000000000409960                WebRtcSpl_RealForwardFFT
+                0x0000000000409a70                WebRtcSpl_RealInverseFFT
+ *fill*         0x0000000000409bd8        0x8 1f2003d5
+ .text          0x0000000000409be0      0x140 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-division_operations.o)
+                0x0000000000409be0                WebRtcSpl_DivU32U16
+                0x0000000000409c00                WebRtcSpl_DivW32W16
+                0x0000000000409c20                WebRtcSpl_DivW32W16ResW16
+                0x0000000000409c40                WebRtcSpl_DivResultInQ31
+                0x0000000000409cb0                WebRtcSpl_DivW32HiLow
+ .text          0x0000000000409d20        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_init.o)
+ .text          0x0000000000409d20      0x72c ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-min_max_operations.o)
+                0x0000000000409d20                WebRtcSpl_MaxAbsValueW16C
+                0x0000000000409d80                WebRtcSpl_MaxAbsValueW32C
+                0x0000000000409e30                WebRtcSpl_MaxValueW16C
+                0x0000000000409ee0                WebRtcSpl_MaxValueW32C
+                0x0000000000409f80                WebRtcSpl_MinValueW16C
+                0x000000000040a030                WebRtcSpl_MinValueW32C
+                0x000000000040a0d0                WebRtcSpl_MaxAbsIndexW16
+                0x000000000040a140                WebRtcSpl_MaxAbsElementW16
+                0x000000000040a210                WebRtcSpl_MaxIndexW16
+                0x000000000040a270                WebRtcSpl_MaxIndexW32
+                0x000000000040a2d0                WebRtcSpl_MinIndexW16
+                0x000000000040a330                WebRtcSpl_MinIndexW32
+                0x000000000040a390                WebRtcSpl_MinMaxW16
+ *fill*         0x000000000040a44c        0x4 1f2003d5
+ .text          0x000000000040a450       0xb0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-randomization_functions.o)
+                0x000000000040a450                WebRtcSpl_RandU
+                0x000000000040a480                WebRtcSpl_RandN
+                0x000000000040a4b0                WebRtcSpl_RandUArray
+ .text          0x000000000040a500       0xc8 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_bit_reverse.o)
+                0x000000000040a500                WebRtcSpl_ComplexBitReverse
+ *fill*         0x000000000040a5c8        0x8 1f2003d5
+ .text          0x000000000040a5d0      0x528 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_fft.o)
+                0x000000000040a5d0                WebRtcSpl_ComplexFFT
+                0x000000000040a840                WebRtcSpl_ComplexIFFT
+ *fill*         0x000000000040aaf8        0x8 1f2003d5
+ .text          0x000000000040ab00      0xa30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-vector_scaling_operations.o)
+                0x000000000040ab00                WebRtcSpl_VectorBitShiftW16
+                0x000000000040ac90                WebRtcSpl_VectorBitShiftW32
+                0x000000000040ae00                WebRtcSpl_VectorBitShiftW32ToW16
+                0x000000000040b050                WebRtcSpl_ScaleVector
+                0x000000000040b120                WebRtcSpl_ScaleVectorWithSat
+                0x000000000040b2a0                WebRtcSpl_ScaleAndAddVectors
+                0x000000000040b3f0                WebRtcSpl_ScaleAndAddVectorsWithRoundC
+ .text          0x000000000040b530      0x15c ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-downsample_fast.o)
+                0x000000000040b530                WebRtcSpl_DownsampleFastC
+ *fill*         0x000000000040b68c        0x4 1f2003d5
+ .text          0x000000000040b690       0xc8 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-cross_correlation.o)
+                0x000000000040b690                WebRtcSpl_CrossCorrelationC
+ *fill*         0x000000000040b758        0x8 1f2003d5
+ .text          0x000000000040b760      0x18c ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_sqrt_floor.o)
+                0x000000000040b760                WebRtcSpl_SqrtFloor
+ *fill*         0x000000000040b8ec        0x4 1f2003d5
+ .text          0x000000000040b8f0      0x854 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+                0x000000000040ba20                rtc::webrtc_checks_impl::ParseArg(std::__va_list*, rtc::webrtc_checks_impl::CheckArgType const**, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+                0x000000000040bee0                rtc::webrtc_checks_impl::FatalLog(char const*, int, char const*, rtc::webrtc_checks_impl::CheckArgType const*, ...)
+                0x000000000040c0c0                rtc::webrtc_checks_impl::UnreachableCodeReached(char const*, int)
+                0x000000000040c130                rtc_FatalMessage
+ *fill*         0x000000000040c144        0xc 1f2003d5
+ .text          0x000000000040c150       0x84 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libc_nonshared.a(elf-init.oS)
+                0x000000000040c150                __libc_csu_init
+                0x000000000040c1d0                __libc_csu_fini
+ .text          0x000000000040c1d4        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtend.o
+ .text          0x000000000040c1d4        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+ *(.gnu.warning)
+
+.fini           0x000000000040c1d4       0x10
+ *(SORT_NONE(.fini))
+ .fini          0x000000000040c1d4        0x8 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crti.o
+                0x000000000040c1d4                _fini
+ .fini          0x000000000040c1dc        0x8 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata         0x000000000040c1f0     0x2bf9
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x000000000040c1f0        0x4 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+                0x000000000040c1f0                _IO_stdin_used
+ *fill*         0x000000000040c1f4        0x4 
+ .rodata.cst8   0x000000000040c1f8       0x10 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtbegin.o
+ .rodata.str1.8
+                0x000000000040c208      0x6f5 AECMServer.o
+ *fill*         0x000000000040c8fd        0x3 
+ .rodata.str1.8
+                0x000000000040c900      0x939 ALSA.o
+ *fill*         0x000000000040d239        0x7 
+ .rodata        0x000000000040d240       0x88 ALSA.o
+ .rodata.cst8   0x000000000040d2c8       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-echo_control_mobile.o)
+ *fill*         0x000000000040d2f8        0x8 
+ .rodata.cst16  0x000000000040d300       0x10 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-echo_control_mobile.o)
+ .rodata.str1.8
+                0x000000000040d310       0x8f ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+ *fill*         0x000000000040d39f        0x1 
+ .rodata._ZZN3rtc18webrtc_checks_impl11LogStreamerIJEE4CallIJEEEvPKciS5_DpRKT_E1t
+                0x000000000040d3a0        0x1 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+                0x000000000040d3a0                rtc::webrtc_checks_impl::LogStreamer<>::Call<>(char const*, int, char const*)::t
+ *fill*         0x000000000040d3a1        0x7 
+ .rodata.cst8   0x000000000040d3a8       0x18 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+                                         0x20 (size before relaxing)
+ .rodata.cst16  0x000000000040d3c0       0x10 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+ .rodata        0x000000000040d3d0      0x6c0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+                0x000000000040d4f0                webrtc::WebRtcAecm_kSinTable
+                0x000000000040d7c0                webrtc::WebRtcAecm_kCosTable
+ .rodata.str1.8
+                0x000000000040da90       0x6a ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+ *fill*         0x000000000040dafa        0x6 
+ .rodata._ZZN3rtc18webrtc_checks_impl11LogStreamerIJEE11CallCheckOpIJNS0_3ValILNS0_12CheckArgTypeE1EiEES6_EEEvPKciS8_DpRKT_E1t
+                0x000000000040db00        0x4 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+                0x000000000040db00                rtc::webrtc_checks_impl::LogStreamer<>::CallCheckOp<rtc::webrtc_checks_impl::Val<(rtc::webrtc_checks_impl::CheckArgType)1, int>, rtc::webrtc_checks_impl::Val<(rtc::webrtc_checks_impl::CheckArgType)1, int> >(char const*, int, char const*, rtc::webrtc_checks_impl::Val<(rtc::webrtc_checks_impl::CheckArgType)1, int> const&, rtc::webrtc_checks_impl::Val<(rtc::webrtc_checks_impl::CheckArgType)1, int> const&)::t
+ *fill*         0x000000000040db04        0xc 
+ .rodata.cst16  0x000000000040db10       0x20 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+ .rodata        0x000000000040db30       0x82 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+ *fill*         0x000000000040dbb2        0x6 
+ .rodata.str1.8
+                0x000000000040dbb8       0x64 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+                                         0x6c (size before relaxing)
+ *fill*         0x000000000040dc1c        0x4 
+ .rodata.str1.8
+                0x000000000040dc20       0x81 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+                                         0x89 (size before relaxing)
+ *fill*         0x000000000040dca1        0xf 
+ .rodata.cst16  0x000000000040dcb0       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+ .rodata        0x000000000040dce0       0x48 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_init.o)
+                0x000000000040dce0                WebRtcSpl_ScaleAndAddVectorsWithRound
+                0x000000000040dce8                WebRtcSpl_DownsampleFast
+                0x000000000040dcf0                WebRtcSpl_CrossCorrelation
+                0x000000000040dcf8                WebRtcSpl_MinValueW32
+                0x000000000040dd00                WebRtcSpl_MinValueW16
+                0x000000000040dd08                WebRtcSpl_MaxValueW32
+                0x000000000040dd10                WebRtcSpl_MaxValueW16
+                0x000000000040dd18                WebRtcSpl_MaxAbsValueW32
+                0x000000000040dd20                WebRtcSpl_MaxAbsValueW16
+ .rodata.str1.8
+                0x000000000040dd28       0x54 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-min_max_operations.o)
+ *fill*         0x000000000040dd7c        0x4 
+ .rodata        0x000000000040dd80      0x400 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-randomization_functions.o)
+ .rodata        0x000000000040e180      0x2c0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_bit_reverse.o)
+ .rodata        0x000000000040e440      0x800 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_fft.o)
+ .rodata.str1.8
+                0x000000000040ec40       0x79 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-downsample_fast.o)
+ .rodata.cst16  0x000000000040ecb9       0x10 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-downsample_fast.o)
+ *fill*         0x000000000040ecb9        0x7 
+ .rodata.str1.8
+                0x000000000040ecc0      0x127 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+ *fill*         0x000000000040ede7        0x1 
+ .rodata        0x000000000040ede8        0x1 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000040edec      0x474
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000040edec      0x474 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtbegin.o
+                0x000000000040edec                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000000000040f260     0x1804
+ *(.eh_frame)
+ .eh_frame      0x000000000040f260       0x78 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtbegin.o
+ .eh_frame      0x000000000040f2d8      0x110 AECMServer.o
+                                        0x120 (size before relaxing)
+ .eh_frame      0x000000000040f3e8      0x358 ALSA.o
+                                        0x370 (size before relaxing)
+ .eh_frame      0x000000000040f740      0x240 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-echo_control_mobile.o)
+                                        0x258 (size before relaxing)
+ .eh_frame      0x000000000040f980      0x178 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-ring_buffer.o)
+                                        0x190 (size before relaxing)
+ .eh_frame      0x000000000040faf8      0x368 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+                                        0x380 (size before relaxing)
+ .eh_frame      0x000000000040fe60       0x90 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+                                         0xa8 (size before relaxing)
+ .eh_frame      0x000000000040fef0      0x328 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+                                        0x340 (size before relaxing)
+ .eh_frame      0x0000000000410218      0x2a0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+                                        0x2b8 (size before relaxing)
+ .eh_frame      0x00000000004104b8       0xc0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-real_fft.o)
+                                         0xd0 (size before relaxing)
+ .eh_frame      0x0000000000410578       0x68 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-division_operations.o)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x00000000004105e0      0x138 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-min_max_operations.o)
+                                        0x150 (size before relaxing)
+ .eh_frame      0x0000000000410718       0x40 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-randomization_functions.o)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x0000000000410758       0x18 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_bit_reverse.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x0000000000410770       0xb0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_fft.o)
+                                         0xc8 (size before relaxing)
+ .eh_frame      0x0000000000410820       0x98 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-vector_scaling_operations.o)
+                                         0xb0 (size before relaxing)
+ .eh_frame      0x00000000004108b8       0x20 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-downsample_fast.o)
+                                         0x30 (size before relaxing)
+ .eh_frame      0x00000000004108d8       0x18 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-cross_correlation.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x00000000004108f0       0x18 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_sqrt_floor.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x0000000000410908      0x110 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+                                        0x128 (size before relaxing)
+ .eh_frame      0x0000000000410a18       0x48 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libc_nonshared.a(elf-init.oS)
+                                         0x60 (size before relaxing)
+ .eh_frame      0x0000000000410a60        0x4 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtend.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+                0x0000000000410a64       0x21
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table
+                0x0000000000410a64       0x21 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x0000000000420db8                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata          0x0000000000420db8        0x0
+                [!provide]                        PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000420db8        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000420db8        0x8
+                0x0000000000420db8                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000420db8        0x8 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtbegin.o
+                0x0000000000420dc0                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000420dc0        0x8
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000420dc0        0x8 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000420dc8        0x0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000420dc8        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+
+.dynamic        0x0000000000420dc8      0x210
+ *(.dynamic)
+ .dynamic       0x0000000000420dc8      0x210 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+                0x0000000000420dc8                _DYNAMIC
+
+.got            0x0000000000420fd8       0x10
+ *(.got)
+ .got           0x0000000000420fd8       0x10 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+                0x0000000000420fd8                _GLOBAL_OFFSET_TABLE_
+ *(.igot)
+                0x0000000000420fe8                . = DATA_SEGMENT_RELRO_END (., 0x18)
+
+.got.plt        0x0000000000420fe8      0x238
+ *(.got.plt)
+ .got.plt       0x0000000000420fe8      0x238 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+ *(.igot.plt)
+ .igot.plt      0x0000000000421220        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+
+.data           0x0000000000421220       0x20
+                [!provide]                        PROVIDE (__data_start = .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000421220        0x4 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+                0x0000000000421220                data_start
+                0x0000000000421220                __data_start
+ .data          0x0000000000421224        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crti.o
+ *fill*         0x0000000000421224        0x4 
+ .data          0x0000000000421228        0x8 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtbegin.o
+                0x0000000000421228                __dso_handle
+ .data          0x0000000000421230        0x1 AECMServer.o
+ .data          0x0000000000421231        0x0 ALSA.o
+ .data          0x0000000000421231        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-echo_control_mobile.o)
+ .data          0x0000000000421231        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-ring_buffer.o)
+ .data          0x0000000000421231        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+ .data          0x0000000000421231        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+ .data          0x0000000000421231        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+ .data          0x0000000000421231        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+ .data          0x0000000000421231        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-real_fft.o)
+ .data          0x0000000000421231        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-division_operations.o)
+ .data          0x0000000000421231        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_init.o)
+ .data          0x0000000000421231        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-min_max_operations.o)
+ .data          0x0000000000421231        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-randomization_functions.o)
+ .data          0x0000000000421231        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_bit_reverse.o)
+ .data          0x0000000000421231        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_fft.o)
+ .data          0x0000000000421231        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-vector_scaling_operations.o)
+ .data          0x0000000000421231        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-downsample_fast.o)
+ .data          0x0000000000421231        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-cross_correlation.o)
+ .data          0x0000000000421231        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_sqrt_floor.o)
+ .data          0x0000000000421231        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+ *fill*         0x0000000000421231        0x7 
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000421238        0x8 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+                0x0000000000421238                DW.ref.__gxx_personality_v0
+ .data          0x0000000000421240        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libc_nonshared.a(elf-init.oS)
+ .data          0x0000000000421240        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtend.o
+ .data          0x0000000000421240        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+
+.tm_clone_table
+                0x0000000000421240        0x0
+ .tm_clone_table
+                0x0000000000421240        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtbegin.o
+ .tm_clone_table
+                0x0000000000421240        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtend.o
+
+.data1
+ *(.data1)
+                0x0000000000421240                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x0000000000421240                . = .
+                0x0000000000421240                __bss_start = .
+                0x0000000000421240                __bss_start__ = .
+
+.bss            0x0000000000421240      0x180
+ *(.dynbss)
+ .dynbss        0x0000000000421240       0x20 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+                0x0000000000421240                stdin@@GLIBC_2.17
+                0x0000000000421248                optarg@@GLIBC_2.17
+                0x0000000000421250                stdout@@GLIBC_2.17
+                0x0000000000421258                stderr@@GLIBC_2.17
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000421260        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+ .bss           0x0000000000421260        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crti.o
+ .bss           0x0000000000421260        0x1 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtbegin.o
+ *fill*         0x0000000000421261        0x7 
+ .bss           0x0000000000421268       0xb0 AECMServer.o
+                0x00000000004212c0                s_pvAECMInst
+ .bss           0x0000000000421318       0x8c ALSA.o
+                0x0000000000421398                s_u64RecCalTime
+                0x00000000004213a0                s_u32RecBytes
+ .bss           0x00000000004213a4        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-echo_control_mobile.o)
+ .bss           0x00000000004213a4        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-ring_buffer.o)
+ *fill*         0x00000000004213a4        0x4 
+ .bss           0x00000000004213a8       0x18 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+                0x00000000004213a8                webrtc::WebRtcAecm_CalcLinearEnergies
+                0x00000000004213b0                webrtc::WebRtcAecm_StoreAdaptiveChannel
+                0x00000000004213b8                webrtc::WebRtcAecm_ResetAdaptiveChannel
+ .bss           0x00000000004213c0        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+ .bss           0x00000000004213c0        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+ .bss           0x00000000004213c0        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+ .bss           0x00000000004213c0        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-real_fft.o)
+ .bss           0x00000000004213c0        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-division_operations.o)
+ .bss           0x00000000004213c0        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_init.o)
+ .bss           0x00000000004213c0        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-min_max_operations.o)
+ .bss           0x00000000004213c0        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-randomization_functions.o)
+ .bss           0x00000000004213c0        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_bit_reverse.o)
+ .bss           0x00000000004213c0        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_fft.o)
+ .bss           0x00000000004213c0        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-vector_scaling_operations.o)
+ .bss           0x00000000004213c0        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-downsample_fast.o)
+ .bss           0x00000000004213c0        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-cross_correlation.o)
+ .bss           0x00000000004213c0        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_sqrt_floor.o)
+ .bss           0x00000000004213c0        0x0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+ .bss           0x00000000004213c0        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libc_nonshared.a(elf-init.oS)
+ .bss           0x00000000004213c0        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtend.o
+ .bss           0x00000000004213c0        0x0 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+ *(COMMON)
+                0x00000000004213c0                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x00000000004213c0                _bss_end__ = .
+                0x00000000004213c0                __bss_end__ = .
+                0x00000000004213c0                . = ALIGN (0x8)
+                0x00000000004213c0                . = SEGMENT_START ("ldata-segment", .)
+                0x00000000004213c0                . = ALIGN (0x8)
+                0x00000000004213c0                __end__ = .
+                0x00000000004213c0                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x00000000004213c0                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000011       0x12 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtbegin.o
+ .comment       0x0000000000000011       0x12 AECMServer.o
+ .comment       0x0000000000000011       0x12 ALSA.o
+ .comment       0x0000000000000011       0x12 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-echo_control_mobile.o)
+ .comment       0x0000000000000011       0x12 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-ring_buffer.o)
+ .comment       0x0000000000000011       0x12 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+ .comment       0x0000000000000011       0x12 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+ .comment       0x0000000000000011       0x12 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+ .comment       0x0000000000000011       0x12 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+ .comment       0x0000000000000011       0x12 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-real_fft.o)
+ .comment       0x0000000000000011       0x12 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-division_operations.o)
+ .comment       0x0000000000000011       0x12 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_init.o)
+ .comment       0x0000000000000011       0x12 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-min_max_operations.o)
+ .comment       0x0000000000000011       0x12 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-randomization_functions.o)
+ .comment       0x0000000000000011       0x12 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_bit_reverse.o)
+ .comment       0x0000000000000011       0x12 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_fft.o)
+ .comment       0x0000000000000011       0x12 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-vector_scaling_operations.o)
+ .comment       0x0000000000000011       0x12 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-downsample_fast.o)
+ .comment       0x0000000000000011       0x12 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-cross_correlation.o)
+ .comment       0x0000000000000011       0x12 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_sqrt_floor.o)
+ .comment       0x0000000000000011       0x12 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+ .comment       0x0000000000000011       0x12 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libc_nonshared.a(elf-init.oS)
+ .comment       0x0000000000000011       0x12 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/9.3.0/crtend.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x4d0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x50 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+ .debug_aranges
+                0x0000000000000050       0x50 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crti.o
+ .debug_aranges
+                0x00000000000000a0       0x40 AECMServer.o
+ .debug_aranges
+                0x00000000000000e0       0x30 ALSA.o
+ .debug_aranges
+                0x0000000000000110       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-echo_control_mobile.o)
+ .debug_aranges
+                0x0000000000000140       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-ring_buffer.o)
+ .debug_aranges
+                0x0000000000000170       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+ .debug_aranges
+                0x00000000000001a0       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+ .debug_aranges
+                0x00000000000001d0       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+ .debug_aranges
+                0x0000000000000200       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+ .debug_aranges
+                0x0000000000000230       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-real_fft.o)
+ .debug_aranges
+                0x0000000000000260       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-division_operations.o)
+ .debug_aranges
+                0x0000000000000290       0x20 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_init.o)
+ .debug_aranges
+                0x00000000000002b0       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-min_max_operations.o)
+ .debug_aranges
+                0x00000000000002e0       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-randomization_functions.o)
+ .debug_aranges
+                0x0000000000000310       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_bit_reverse.o)
+ .debug_aranges
+                0x0000000000000340       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_fft.o)
+ .debug_aranges
+                0x0000000000000370       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-vector_scaling_operations.o)
+ .debug_aranges
+                0x00000000000003a0       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-downsample_fast.o)
+ .debug_aranges
+                0x00000000000003d0       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-cross_correlation.o)
+ .debug_aranges
+                0x0000000000000400       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_sqrt_floor.o)
+ .debug_aranges
+                0x0000000000000430       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+ .debug_aranges
+                0x0000000000000460       0x30 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libc_nonshared.a(elf-init.oS)
+ .debug_aranges
+                0x0000000000000490       0x40 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x2c100
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x6e /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+ .debug_info    0x000000000000006e       0x22 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crti.o
+ .debug_info    0x0000000000000090     0x2a65 AECMServer.o
+ .debug_info    0x0000000000002af5     0x340d ALSA.o
+ .debug_info    0x0000000000005f02     0x1ee8 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-echo_control_mobile.o)
+ .debug_info    0x0000000000007dea      0x847 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-ring_buffer.o)
+ .debug_info    0x0000000000008631     0x5b38 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+ .debug_info    0x000000000000e169     0x59f4 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+ .debug_info    0x0000000000013b5d     0x5d4d ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+ .debug_info    0x00000000000198aa     0x6186 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+ .debug_info    0x000000000001fa30      0x65b ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-real_fft.o)
+ .debug_info    0x000000000002008b      0x5b1 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-division_operations.o)
+ .debug_info    0x000000000002063c      0x379 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_init.o)
+ .debug_info    0x00000000000209b5      0xd5b ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-min_max_operations.o)
+ .debug_info    0x0000000000021710      0x4db ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-randomization_functions.o)
+ .debug_info    0x0000000000021beb      0x49d ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_bit_reverse.o)
+ .debug_info    0x0000000000022088      0x63c ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_fft.o)
+ .debug_info    0x00000000000226c4      0x870 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-vector_scaling_operations.o)
+ .debug_info    0x0000000000022f34      0x505 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-downsample_fast.o)
+ .debug_info    0x0000000000023439      0x3b4 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-cross_correlation.o)
+ .debug_info    0x00000000000237ed       0xe0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_sqrt_floor.o)
+ .debug_info    0x00000000000238cd     0x863b ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+ .debug_info    0x000000000002bf08      0x1d6 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libc_nonshared.a(elf-init.oS)
+ .debug_info    0x000000000002c0de       0x22 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+
+.debug_abbrev   0x0000000000000000     0x560d
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x49 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+ .debug_abbrev  0x0000000000000049       0x12 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crti.o
+ .debug_abbrev  0x000000000000005b      0x4a9 AECMServer.o
+ .debug_abbrev  0x0000000000000504      0x3ea ALSA.o
+ .debug_abbrev  0x00000000000008ee      0x517 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-echo_control_mobile.o)
+ .debug_abbrev  0x0000000000000e05      0x260 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-ring_buffer.o)
+ .debug_abbrev  0x0000000000001065      0xa78 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+ .debug_abbrev  0x0000000000001add      0xa56 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+ .debug_abbrev  0x0000000000002533      0xa83 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+ .debug_abbrev  0x0000000000002fb6      0xaa2 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+ .debug_abbrev  0x0000000000003a58      0x1d6 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-real_fft.o)
+ .debug_abbrev  0x0000000000003c2e      0x19f ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-division_operations.o)
+ .debug_abbrev  0x0000000000003dcd       0xbd ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_init.o)
+ .debug_abbrev  0x0000000000003e8a      0x1cd ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-min_max_operations.o)
+ .debug_abbrev  0x0000000000004057      0x1b5 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-randomization_functions.o)
+ .debug_abbrev  0x000000000000420c      0x154 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_bit_reverse.o)
+ .debug_abbrev  0x0000000000004360      0x165 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_fft.o)
+ .debug_abbrev  0x00000000000044c5      0x1ba ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-vector_scaling_operations.o)
+ .debug_abbrev  0x000000000000467f      0x1cc ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-downsample_fast.o)
+ .debug_abbrev  0x000000000000484b      0x120 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-cross_correlation.o)
+ .debug_abbrev  0x000000000000496b       0x7d ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_sqrt_floor.o)
+ .debug_abbrev  0x00000000000049e8      0xae4 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+ .debug_abbrev  0x00000000000054cc      0x12f /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libc_nonshared.a(elf-init.oS)
+ .debug_abbrev  0x00000000000055fb       0x12 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+
+.debug_line     0x0000000000000000     0xd1ae
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x81 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+ .debug_line    0x0000000000000081       0x6a /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crti.o
+ .debug_line    0x00000000000000eb      0xb7e AECMServer.o
+ .debug_line    0x0000000000000c69     0x1ad3 ALSA.o
+ .debug_line    0x000000000000273c      0xb67 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-echo_control_mobile.o)
+ .debug_line    0x00000000000032a3      0x482 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-ring_buffer.o)
+ .debug_line    0x0000000000003725     0x1bdc ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+ .debug_line    0x0000000000005301     0x186f ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+ .debug_line    0x0000000000006b70      0xea6 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+ .debug_line    0x0000000000007a16     0x1529 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+ .debug_line    0x0000000000008f3f      0x3e4 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-real_fft.o)
+ .debug_line    0x0000000000009323      0x341 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-division_operations.o)
+ .debug_line    0x0000000000009664      0x184 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_init.o)
+ .debug_line    0x00000000000097e8      0x7bf ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-min_max_operations.o)
+ .debug_line    0x0000000000009fa7      0x2a5 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-randomization_functions.o)
+ .debug_line    0x000000000000a24c      0x2f2 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_bit_reverse.o)
+ .debug_line    0x000000000000a53e      0x882 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_fft.o)
+ .debug_line    0x000000000000adc0      0x9db ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-vector_scaling_operations.o)
+ .debug_line    0x000000000000b79b      0x369 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-downsample_fast.o)
+ .debug_line    0x000000000000bb04      0x275 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-cross_correlation.o)
+ .debug_line    0x000000000000bd79      0x3bd ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_sqrt_floor.o)
+ .debug_line    0x000000000000c136      0xf1e ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+ .debug_line    0x000000000000d054      0x10b /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libc_nonshared.a(elf-init.oS)
+ .debug_line    0x000000000000d15f       0x4f /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0xf3b5
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x161 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crt1.o
+                                        0x2bd (size before relaxing)
+ .debug_str     0x0000000000000161        0x7 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crti.o
+                                         0x50 (size before relaxing)
+ .debug_str     0x0000000000000168     0x1c84 AECMServer.o
+                                       0x1dfd (size before relaxing)
+ .debug_str     0x0000000000001dec      0xfc3 ALSA.o
+                                       0x1593 (size before relaxing)
+ .debug_str     0x0000000000002daf      0xb7d ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-echo_control_mobile.o)
+                                       0x1006 (size before relaxing)
+ .debug_str     0x000000000000392c      0x191 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-ring_buffer.o)
+                                        0x383 (size before relaxing)
+ .debug_str     0x0000000000003abd     0x25ec ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+                                       0x37b4 (size before relaxing)
+ .debug_str     0x00000000000060a9     0x1134 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+                                       0x3d2e (size before relaxing)
+ .debug_str     0x00000000000071dd     0x1683 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+                                       0x4463 (size before relaxing)
+ .debug_str     0x0000000000008860      0xac8 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+                                       0x3cd7 (size before relaxing)
+ .debug_str     0x0000000000009328       0xd6 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-real_fft.o)
+                                        0x455 (size before relaxing)
+ .debug_str     0x00000000000093fe       0xd1 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-division_operations.o)
+                                        0x404 (size before relaxing)
+ .debug_str     0x00000000000094cf       0x2a ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_init.o)
+                                        0x2f3 (size before relaxing)
+ .debug_str     0x00000000000094f9      0x19e ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-min_max_operations.o)
+                                        0x4b4 (size before relaxing)
+ .debug_str     0x0000000000009697       0x7f ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-randomization_functions.o)
+                                        0x38b (size before relaxing)
+ .debug_str     0x0000000000009716       0x6f ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_bit_reverse.o)
+                                        0x361 (size before relaxing)
+ .debug_str     0x0000000000009785       0x61 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_fft.o)
+                                        0x373 (size before relaxing)
+ .debug_str     0x00000000000097e6      0x1d0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-vector_scaling_operations.o)
+                                        0x4d2 (size before relaxing)
+ .debug_str     0x00000000000099b6       0xd2 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-downsample_fast.o)
+                                        0x41f (size before relaxing)
+ .debug_str     0x0000000000009a88       0x81 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-cross_correlation.o)
+                                        0x36e (size before relaxing)
+ .debug_str     0x0000000000009b09       0x43 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_sqrt_floor.o)
+                                        0x16a (size before relaxing)
+ .debug_str     0x0000000000009b4c     0x56db ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+                                       0x7784 (size before relaxing)
+ .debug_str     0x000000000000f227      0x187 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libc_nonshared.a(elf-init.oS)
+                                        0x225 (size before relaxing)
+ .debug_str     0x000000000000f3ae        0x7 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+                                         0x50 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x1cac2
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0xa62 AECMServer.o
+ .debug_loc     0x0000000000000a62     0x3695 ALSA.o
+ .debug_loc     0x00000000000040f7     0x23b9 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-echo_control_mobile.o)
+ .debug_loc     0x00000000000064b0     0x1077 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-ring_buffer.o)
+ .debug_loc     0x0000000000007527     0x375b ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+ .debug_loc     0x000000000000ac82     0x2715 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+ .debug_loc     0x000000000000d397     0x2c79 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+ .debug_loc     0x0000000000010010     0x2f4e ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+ .debug_loc     0x0000000000012f5e      0x657 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-real_fft.o)
+ .debug_loc     0x00000000000135b5      0x70c ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-division_operations.o)
+ .debug_loc     0x0000000000013cc1     0x1a08 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-min_max_operations.o)
+ .debug_loc     0x00000000000156c9      0x19d ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-randomization_functions.o)
+ .debug_loc     0x0000000000015866      0x316 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_bit_reverse.o)
+ .debug_loc     0x0000000000015b7c     0x12b6 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_fft.o)
+ .debug_loc     0x0000000000016e32     0x23d1 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-vector_scaling_operations.o)
+ .debug_loc     0x0000000000019203      0x6c8 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-downsample_fast.o)
+ .debug_loc     0x00000000000198cb      0x23b ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-cross_correlation.o)
+ .debug_loc     0x0000000000019b06      0x734 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-spl_sqrt_floor.o)
+ .debug_loc     0x000000000001a23a     0x26ed ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+ .debug_loc     0x000000000001c927      0x19b /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libc_nonshared.a(elf-init.oS)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x3690
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x50 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crti.o
+ .debug_ranges  0x0000000000000050       0xd0 AECMServer.o
+ .debug_ranges  0x0000000000000120      0xe50 ALSA.o
+ .debug_ranges  0x0000000000000f70      0x1a0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-echo_control_mobile.o)
+ .debug_ranges  0x0000000000001110      0x110 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-ring_buffer.o)
+ .debug_ranges  0x0000000000001220      0x580 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core.o)
+ .debug_ranges  0x00000000000017a0      0x890 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-aecm_core_c.o)
+ .debug_ranges  0x0000000000002030      0x420 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator_wrapper.o)
+ .debug_ranges  0x0000000000002450      0x670 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-delay_estimator.o)
+ .debug_ranges  0x0000000000002ac0       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-division_operations.o)
+ .debug_ranges  0x0000000000002af0      0x100 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-min_max_operations.o)
+ .debug_ranges  0x0000000000002bf0       0x90 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-randomization_functions.o)
+ .debug_ranges  0x0000000000002c80       0x30 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-complex_bit_reverse.o)
+ .debug_ranges  0x0000000000002cb0      0x1c0 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-vector_scaling_operations.o)
+ .debug_ranges  0x0000000000002e70       0x50 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-downsample_fast.o)
+ .debug_ranges  0x0000000000002ec0       0x50 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-cross_correlation.o)
+ .debug_ranges  0x0000000000002f10      0x710 ../../src/.libs/libwebrtc_aec.a(libwebrtc_aec_la-checks.o)
+ .debug_ranges  0x0000000000003620       0x30 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/libc_nonshared.a(elf-init.oS)
+ .debug_ranges  0x0000000000003650       0x40 /usr/local/oecore-x86_64/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.ARM.attributes
+ *(.ARM.attributes)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(AECMServer elf64-littleaarch64)
+LOAD linker stubs
