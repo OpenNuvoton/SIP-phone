@@ -22,7 +22,7 @@ fi
 tar -xzvf $PACKAGE_NAME
 
 cd $PACKAGE_FOLDER
-cp -r home/root/* $TARGET_CONFIG_FOLDER
+cp -r home/root/.baresip $TARGET_CONFIG_FOLDER
 cp -rf usr/bin/* $TARGET_FOLDER/bin
 cp -rf usr/lib/* $TARGET_FOLDER/lib
 cd ../
