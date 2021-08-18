@@ -53,7 +53,7 @@ audio_buffer		20-160		# ms
 # Video
 #video_source		fakevideo
 video_display		fb
-video_size		640x480
+video_size		1024x600
 video_bitrate		1000000
 video_fps		30.00
 video_fullscreen	yes
@@ -193,7 +193,7 @@ module_app		menu.so
 #module_app		serreg.so
 #module_app		syslog.so
 #module_app		mqtt.so
-#module_app		ctrl_tcp.so
+module_app		ctrl_tcp.so
 module_app		vidloop.so
 module_app		ctrl_dbus.so
 #module_app		httpreq.so
@@ -308,8 +308,8 @@ ctrl_dbus_use	session		# system, session
 
 #vc8000
 vc8000_viddst_auto_size	yes
-vc8000_viddst_size		800x480
+vc8000_viddst_size		1024x600
 vc8000_viddst_offset_x	0
 vc8000_viddst_offset_y	0
-vc8000_panel_size	800x480
+vc8000_panel_size	1024x600
 vc8000_pp_enable	yes
