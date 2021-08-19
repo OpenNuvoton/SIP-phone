@@ -19,15 +19,25 @@ IPC_baresip::IPC_baresip(QObject *parent)
     szSIPServerName = "baresip.org";
     socket = new QTcpSocket(this);
     NumOnCall = 0;
+    int try_connect = 3;
+    bool bConnected = false;
 
     qDebug() << "connecting...";
 
-    // this is not blocking function
-    socket->connectToHost("127.0.0.1", BARESIP_TCP_PORT);
-//    socket->connectToHost("192.168.31.115", BARESIP_TCP_PORT);
+    while(try_connect >= 0)
+    {
+		// this is not blocking function
+        socket->connectToHost("127.0.0.1", BARESIP_TCP_PORT);
+        bConnected = socket->waitForConnected(5000);
+
+        if(bConnected)
+            break;
+        sleep(2);
+        try_connect --;
+    }
 
     // we need to wait...
-    if(!socket->waitForConnected(5000))
+    if(bConnected == false)
     {
         qDebug() << "Error: " << socket->errorString();
         delete socket;

@@ -47,6 +47,7 @@ int sys_daemon(void)
 		return errno;
 	(void)umask(0);
 
+#if 0	//delete by CHChen59
 	/* Redirect standard files to /dev/null */
 	if (freopen("/dev/null", "r", stdin) == NULL)
 		return errno;
@@ -54,6 +55,8 @@ int sys_daemon(void)
 		return errno;
 	if (freopen("/dev/null", "w", stderr) == NULL)
 		return errno;
+
+#endif
 
 	return 0;
 #else
