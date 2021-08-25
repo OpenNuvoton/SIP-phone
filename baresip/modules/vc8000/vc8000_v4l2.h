@@ -28,7 +28,7 @@
 
 /* H264 maximum decode resolution*/
 #define MAX_H264_WIDTH          1920
-#define MAX_H264_HEIGHT         1088
+#define MAX_H264_HEIGHT         1080
 
 #define memzero(x)	memset(&(x), 0, sizeof (x));
 

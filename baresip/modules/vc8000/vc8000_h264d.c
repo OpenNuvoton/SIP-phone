@@ -335,13 +335,19 @@ static int vc8000_decode(
 		return EBUSY;
 	}
 
+	//Checking bit stream length over output plane size or not
+	if(st->mb->end > psVideo->out_buf_size)
+	{
+		warning("bit stream length %d over output buffer size %d\n", st->mb->end, psVideo->out_buf_size);
+		return ENOMEM;
+	}
+	
 	//fill bitstream to dequeued output buffer
 	memcpy(psVideo->out_buf_addr[n], st->mb->buf, st->mb->end);
 
 	//put dequeued output buffer into queue
 	vc8000_v4l2_queue_output(psVideo, n, st->mb->end);
 	psVideo->out_buf_flag[n] = eV4L2_BUF_INQUEUE;
-
 
 	*intra = false;
 	n = -1;
@@ -415,7 +421,7 @@ int vc8000_decode_update(struct viddec_state **vdsp, const struct vidcodec *vc, 
 		return EBUSY;
 	}
 
-	if(vc8000_v4l2_setup_output(&vds->sVideo, V4L2_PIX_FMT_H264, STREAM_BUFFER_SIZE, 3) != 0)
+	if(vc8000_v4l2_setup_output(&vds->sVideo, V4L2_PIX_FMT_H264, STREAM_BUFFER_SIZE, 2) != 0)
 	{
 		vc8000_v4l2_close(&vds->sVideo);
 		return EINVAL;

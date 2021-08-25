@@ -307,7 +307,9 @@ ctrl_dbus_use	session		# system, session
 #avformat_pass_through	yes
 
 #vc8000
+vc8000_viddst_auto_size	yes
 vc8000_viddst_size		1024x600
-vc8000_pp_panel_size	1024x600
-vc8000_pp_offset_x	0
-vc8000_pp_offset_y	0
+vc8000_viddst_offset_x	0
+vc8000_viddst_offset_y	0
+vc8000_panel_size	1024x600
+vc8000_pp_enable	yes

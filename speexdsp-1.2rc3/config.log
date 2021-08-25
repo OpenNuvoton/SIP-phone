@@ -34,7 +34,7 @@ PATH: /usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/sbin
 PATH: /usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
 PATH: /usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux
 PATH: /usr/local/oecore-x86_64/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux-musl
-PATH: /home/chchen59/.local/bin
+PATH: /usr/local/gcc-arm-none-eabi-10/bin
 PATH: /usr/local/sbin
 PATH: /usr/local/bin
 PATH: /usr/sbin
