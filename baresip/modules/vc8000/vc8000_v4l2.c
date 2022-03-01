@@ -134,36 +134,58 @@ struct vc8k_pp_params {
 #define PP_ROTATION_VER_FLIP                            4U
 #define PP_ROTATION_180                                 5U
 
-
+#define VC8000_DEV_MAX_NO 4
+#define DEFAULT_VC8000_DEV_NAME "/dev/video0"
 
 int vc8000_v4l2_open(struct video *psVideo)
 {
 	struct v4l2_capability cap;
 	int ret;
+	char strVideoDevNode[50];
+	int i32DefaultDevNodeLen = strlen(DEFAULT_VC8000_DEV_NAME);
+	int i = 0;
+	
+	memset(strVideoDevNode, 0, 50);
+	strcpy(strVideoDevNode, DEFAULT_VC8000_DEV_NAME);
 
-	psVideo->fd = open(VC8000_DEV_NAME, O_RDWR, 0);
-	if (psVideo->fd < 0) {
-		warning("Failed to open video decoder: %s \n", VC8000_DEV_NAME);
-		return -1;
+	for( i = 0; i < VC8000_DEV_MAX_NO; i ++) {
+		sprintf(strVideoDevNode + i32DefaultDevNodeLen - 1, "%d", i);
+
+		psVideo->fd = open(strVideoDevNode, O_RDWR, 0);
+		if (psVideo->fd < 0) {
+			warning("Failed to open video decoder: %s \n", strVideoDevNode);
+			psVideo->fd = -1;
+			continue;
+		}
+
+		memzero(cap);
+		ret = ioctl(psVideo->fd, VIDIOC_QUERYCAP, &cap);
+		if (ret) {
+			warning("Failed to verify capabilities \n");
+			close(psVideo->fd);
+			psVideo->fd = -1;
+			continue;
+		}
+
+		info("caps (%s): driver=\"%s\" bus_info=\"%s\" card=\"%s\" fd=0x%x \n",
+			 strVideoDevNode, cap.driver, cap.bus_info, cap.card, psVideo->fd);
+
+		if (!(cap.capabilities & V4L2_CAP_VIDEO_CAPTURE_MPLANE) ||
+			!(cap.capabilities & V4L2_CAP_VIDEO_OUTPUT_MPLANE) ||
+			!(cap.capabilities & V4L2_CAP_STREAMING)) {
+			warning("Insufficient capabilities for video device (is %s correct?) \n", strVideoDevNode);
+			close(psVideo->fd);
+			psVideo->fd = -1;
+			continue;
+		}
+
+		break;
 	}
 
-	memzero(cap);
-	ret = ioctl(psVideo->fd, VIDIOC_QUERYCAP, &cap);
-	if (ret) {
-		warning("Failed to verify capabilities \n");
+	if(psVideo->fd < 0) {
 		return -1;
 	}
-
-	info("caps (%s): driver=\"%s\" bus_info=\"%s\" card=\"%s\" fd=0x%x \n",
-	     VC8000_DEV_NAME, cap.driver, cap.bus_info, cap.card, psVideo->fd);
-
-	if (!(cap.capabilities & V4L2_CAP_VIDEO_CAPTURE_MPLANE) ||
-	    !(cap.capabilities & V4L2_CAP_VIDEO_OUTPUT_MPLANE) ||
-	    !(cap.capabilities & V4L2_CAP_STREAMING)) {
-		warning("Insufficient capabilities for video device (is %s correct?) \n", VC8000_DEV_NAME);
-		return -1;
-	}
-
+	
 	return 0;
 }
 
